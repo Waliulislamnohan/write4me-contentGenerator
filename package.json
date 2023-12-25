@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "bard-bot": "^1.0.11",
+    "next": "^13.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "youtube-transcript": "^1.0.6"
+  }
+}

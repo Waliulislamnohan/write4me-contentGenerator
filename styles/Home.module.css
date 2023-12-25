@@ -1,0 +1,49 @@
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+
+
+  .blogBtn {
+	background-color: darkblue; /* Dark blue background color */
+	border: 2px solid;
+	border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Rainbow border */
+	border-image-slice: 1; /* Border-image slices the image into pieces, 1 means the entire image */
+	color: white; /* Text color */
+	padding: 10px 20px; /* Padding for the button */
+	font-size: 16px; /* Font size */
+	cursor: pointer; /* Cursor on hover */
+	outline: none; /* Remove default focus outline */
+  }
+  
+  /* Hover effect */
+  .blogBtn:hover {
+	background-color: navy; /* Darker blue on hover */
+  }
+
+
+  .blogBox{
+	padding: 5px;
+	width: auto;
+	  height: auto;
+	  border-radius: 1rem;
+	  border: none;
+	  background-color: white;
+	  margin-top: 100px;
+	  margin-bottom: 100px;
+	  z-index: 2;
+	  border-color: #0066FF; /* Initial border color */
+	  box-shadow: 10px 8px 15px 0px rgba(0, 0, 0, 0.3);
+	  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+  }
+  .blogBox:hover{
+	transform: translateY(-5px);
+	  border-color: #0066FF; /* Change to the color you desire */
+	  box-shadow: 10px 11px 17px 0px rgba(0, 0, 0, 0.3);
+  }
